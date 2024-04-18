@@ -258,10 +258,12 @@ ul {
   max-width: 40rem;
   margin: 10rem auto;
 }
+
 .section-center h4 {
   text-transform: uppercase;
   text-align: center;
 }
+
 .lorem-form {
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
@@ -272,6 +274,7 @@ ul {
   align-items: center;
   gap: 0.5rem;
 }
+
 .lorem-form label {
   font-size: 1.25rem;
 }
@@ -289,7 +292,8 @@ ul {
   align-self: stretch;
 }
 
-.lorem-text p {
+.lorem-text {
   line-height: 2;
   margin-bottom: 2rem;
+  text-align: justify;
 }
